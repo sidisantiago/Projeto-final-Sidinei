@@ -1,0 +1,116 @@
+DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardápio Digital - Restaurante Sabores</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Restaurante Sabores</h1>
+      <ul>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#precos">Preços</a></li>
+        <li><a href="#cadastro">Cadastro</a></li>
+      </ul>
+    </nav>
+    <section class="intro">
+      <h2>Bem-vindo ao nosso Cardápio Digital</h2>
+      <p>Explore nossas deliciosas opções e faça seu pedido com conforto e praticidade.</p>
+    </section>
+  </header>
+
+  <main>
+    <section id="cardapio" class="produtos">
+      <h2>Nosso Cardápio</h2>
+      <br>
+
+
+      <article class="produto">
+        <img src=https://i.pinimg.com/736x/b1/68/37/b1683782a577bbbd419be2c010c440d4.jpg alt="Pizza Camarao">
+        <div>
+          <h3>Pizza de Camarao</h3>
+          <p>Clássica pizza com molho de tomate, mussarela e camaroes fresco.</p>
+        </div>
+      </article>
+
+      <article class="produto">
+        <img src=https://supermercadosrondon.com.br/guiadecarnes/images/postagens/quer_fazer_hamburger_artesanal_perfeito_2019-05-14.jpg alt="Hambúrguer Artesanal">
+        <div>
+          <h3>Hambúrguer Artesanal</h3>
+          <p>Hambúrguer suculento com queijo, bacon e molho especial da casa.</p>
+        </div>
+      </article>
+
+      <article class="produto">
+        <img src=https://sabores-new.s3.amazonaws.com/public/2024/11/salada-mix-de-folhas-nozes-e-damasco-1024x494.webp alt="Mix de Saladas">
+        <div>
+          <h3>Mix de Saladas</h3>
+          <p>Mix de folhas, frango grelhado, croutons e molho caesar.</p>
+        </div>
+      </article>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV_cRSL29DTbevpBApU7PkXN8NU9KoJglBig&s" alt="carne com fritas">
+        <div>
+          <h3>Carne do sol com batata fritas</h3>
+          <p>Carne do sol, batata fritas, cebola e molho de tomate.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="precos">
+      <h2>Tabela de Preços</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pizza de camarao</td>
+            <td>R$ 35,00</td>
+          </tr>
+          <tr>
+            <td>Hambúrguer Artesanal</td>
+            <td>R$ 25,00</td>
+          </tr>
+          <tr>
+            <td>Mix de Saladas</td>
+            <td>R$ 20,00</td>
+            <tr>
+                <td>Carne do so com fritas</td>
+                <td> R$ 45,00</td>
+                <tr>
+
+                </tr>
+            </tr>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="cadastro" class="formulario">
+      <h2>Cadastre-se e receba novidades</h2>
+      <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" />
+
+        <button type="submit">Cadastrar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    
+</body>
+</html>
